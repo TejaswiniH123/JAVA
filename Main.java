@@ -47,9 +47,16 @@
 //     }
 // }
 //short Data type
+// public class Main{
+//     public static void main(String[] args){
+//         short myShort = 5000;
+//         System.out.println("Short value: " + myShort);
+//     }
+// }
+//int Data type
 public class Main{
     public static void main(String[] args){
-        short myShort = 5000;
-        System.out.println("Short value: " + myShort);
+        int myInt = 100000;
+        System.out.println("Integer value: " + myInt);
     }
 }
