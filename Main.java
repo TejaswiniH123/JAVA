@@ -1,8 +1,27 @@
+// public class Main{
+//     public static void main(String[] args){
+//         {
+//         System.out.println("This is inside the block.");
+//         }
+//     System.out.println("This is outside the block.");
+//     }
+// }
+//identifiers
+//In Java, an identifier is the name given to various program elements such as variables, methods, classes, and objects. Identifiers must follow certain rules:
 public class Main{
     public static void main(String[] args){
-        {
-        System.out.println("This is inside the block.");
-        }
-    System.out.println("This is outside the block.");
+        int myVariable = 10; // Valid identifier
+        String _myString = "Hello"; // Valid identifier
+        double $myDouble = 20.5; // Valid identifier
+
+        // Invalid identifiers (uncommenting these will cause compilation errors)
+        // int 2ndVariable = 15; // Cannot start with a digit
+        // String my-String = "World"; // Cannot contain hyphens
+        // double my Double = 30.5; // Cannot contain spaces
+
+        System.out.println("Valid Identifiers:");
+        System.out.println("myVariable: " + myVariable);
+        System.out.println("_myString: " + _myString);
+        System.out.println("$myDouble: " + $myDouble);
     }
 }
