@@ -40,9 +40,16 @@
 //     }
 // }
 //byte Data type
+// public class Main{
+//     public static void main(String[] args){
+//         byte myByte = 100;
+//         System.out.println("Byte value: " + myByte);
+//     }
+// }
+//short Data type
 public class Main{
     public static void main(String[] args){
-        byte myByte = 100;
-        System.out.println("Byte value: " + myByte);
+        short myShort = 5000;
+        System.out.println("Short value: " + myShort);
     }
 }
