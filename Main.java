@@ -54,9 +54,16 @@
 //     }
 // }
 //int Data type
+// public class Main{
+//     public static void main(String[] args){
+//         int myInt = 100000;
+//         System.out.println("Integer value: " + myInt);
+//     }
+// }
+//long Data type
 public class Main{
     public static void main(String[] args){
-        int myInt = 100000;
-        System.out.println("Integer value: " + myInt);
+        long myLong = 15000000000L;
+        System.out.println("Long value: " + myLong);
     }
 }
