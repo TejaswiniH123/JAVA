@@ -75,9 +75,44 @@
 //     }
 // }
 //double Data type
+// public class Main{
+//     public static void main(String[] args){
+//         double myDouble = 19.99d;
+//         System.out.println("Double value: " + myDouble);
+//     }
+// }
+//char Data type
+// public class Main{
+//     public static void main(String[] args){
+//         char myChar = 'A';
+//         System.out.println("Character value: " + myChar);
+//     }
+// }
+
+//Non primitive data types
+//string Data type
+// public class Main{
+//     public static void main(String[] args){
+//         String myString = "Hello, World!";
+//         System.out.println("String value: " + myString);
+//     }
+// }
+//array Data type
+// public class Main{
+//     public static void main(String[] args){
+//         int[] myArray = {10, 20, 30, 40, 50};
+//         System.out.println("Array values:");
+//         for(int i = 0; i < myArray.length; i++){
+//             System.out.println(myArray[i]);
+//         }
+//     }
+// }
+//class Data type
 public class Main{
+    int myNumber = 42;
+
     public static void main(String[] args){
-        double myDouble = 19.99d;
-        System.out.println("Double value: " + myDouble);
+        Main myObject = new Main();
+        System.out.println("Class value: " + myObject.myNumber);
     }
 }
