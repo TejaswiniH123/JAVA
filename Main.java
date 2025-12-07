@@ -30,12 +30,19 @@
 
 // Data types in Java
 //boolean Data type
+// public class Main{
+//     public static void main(String[] args){
+//         boolean isJavaFun = true;
+//         boolean isFishTasty = false;
+
+//         System.out.println("Is Java fun? " + isJavaFun);
+//         System.out.println("Is fish tasty? " + isFishTasty);
+//     }
+// }
+//byte Data type
 public class Main{
     public static void main(String[] args){
-        boolean isJavaFun = true;
-        boolean isFishTasty = false;
-
-        System.out.println("Is Java fun? " + isJavaFun);
-        System.out.println("Is fish tasty? " + isFishTasty);
+        byte myByte = 100;
+        System.out.println("Byte value: " + myByte);
     }
 }
