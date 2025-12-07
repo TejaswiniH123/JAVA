@@ -108,11 +108,33 @@
 //     }
 // }
 //class Data type
-public class Main{
-    int myNumber = 42;
+// public class Main{
+//     int myNumber = 42;
 
+//     public static void main(String[] args){
+//         Main myObject = new Main();
+//         System.out.println("Class value: " + myObject.myNumber);
+//     }
+// }
+//interface Data type
+// interface MyInterface{
+//     void myMethod(); 
+// }
+// class MyClass implements MyInterface{
+//     public void myMethod(){
+//         System.out.println("Method implemented from interface.");
+//     }
+// }
+// public class Main{
+//     public static void main(String[] args){
+//         MyClass myObject = new MyClass();
+//         myObject.myMethod();
+//     }
+// }
+//object Data type
+public class Main{
     public static void main(String[] args){
         Main myObject = new Main();
-        System.out.println("Class value: " + myObject.myNumber);
+        System.out.println("Object created of Main class: " + myObject);
     }
 }
