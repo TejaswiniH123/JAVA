@@ -61,9 +61,23 @@
 //     }
 // }
 //long Data type
+// public class Main{
+//     public static void main(String[] args){
+//         long myLong = 15000000000L;
+//         System.out.println("Long value: " + myLong);
+//     }
+// }
+//float Data type
+// public class Main{
+//     public static void main(String[] args){
+//         float myFloat = 5.75f;
+//         System.out.println("Float value: " + myFloat);
+//     }
+// }
+//double Data type
 public class Main{
     public static void main(String[] args){
-        long myLong = 15000000000L;
-        System.out.println("Long value: " + myLong);
+        double myDouble = 19.99d;
+        System.out.println("Double value: " + myDouble);
     }
 }
