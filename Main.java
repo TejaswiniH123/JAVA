@@ -140,16 +140,124 @@
 // }
 
 //Variables in Java
+// public class Main{
+//     public static void main(String[] args){
+//         // Variable declaration and initialization
+//         int myNumber = 10;
+//         String myString = "Hello, Java!";
+//         boolean isJavaFun = true;
+
+//         // Printing variable values
+//         System.out.println("Integer value: " + myNumber);
+//         System.out.println("String value: " + myString);
+//         System.out.println("Is Java fun? " + isJavaFun);
+//     }
+// }
+
+// operators in Java
+// public class Main{
+//     public static void main(String[] args){
+//         int a = 10;
+//         int b = 5;
+//         // Arithmetic Operators
+//         System.out.println("Addition: " + (a + b));
+//         System.out.println("Subtraction: " + (a - b));
+//         System.out.println("Multiplication: " + (a * b));
+//         System.out.println("Division: " + (a / b));
+//         System.out.println("Modulus: " + (a % b));
+//     }
+// }
 public class Main{
     public static void main(String[] args){
-        // Variable declaration and initialization
-        int myNumber = 10;
-        String myString = "Hello, Java!";
-        boolean isJavaFun = true;
+        int a = 10;
+        int b = 5;
+        // Comparison Operators
+        System.out.println("Equal to: " + (a == b));
+        System.out.println("Not equal to: " + (a != b));
 
-        // Printing variable values
-        System.out.println("Integer value: " + myNumber);
-        System.out.println("String value: " + myString);
-        System.out.println("Is Java fun? " + isJavaFun);
+        System.out.println("Greater than: " + (a > b));
+        System.out.println("Less than: " + (a < b));
+        System.out.println("Greater than or equal to: " + (a >= b));
+        System.out.println("Less than or equal to: " + (a <= b));
     }
 }
+// public class Main{
+//     public static void main(String[] args){
+//         boolean x = true;
+//         boolean y = false;
+//         // Logical Operators
+//         System.out.println("Logical AND: " + (x && y));
+//         System.out.println("Logical OR: " + (x || y));
+//         System.out.println("Logical NOT: " + (!x));
+//     }
+// }
+
+// public class Main{
+//     public static void main(String[] args){
+//         int a = 10;
+//         int b = 5;
+//         // Assignment Operators
+//         a += b; // a = a + b
+//         System.out.println("a after += : " + a);
+//         a -= b; // a = a - b
+//         System.out.println("a after -= : " + a);
+//         a *= b; // a = a * b
+//         System.out.println("a after *= : " + a);
+//         a /= b; // a = a / b
+//         System.out.println("a after /= : " + a);
+//         a %= b; // a = a % b
+//         System.out.println("a after %= : " + a);
+//     }
+// }
+// public class Main{
+//     public static void main(String[] args){
+//         int a = 10;
+//         // Increment and Decrement Operators
+//         System.out.println("Original a: " + a);
+//         System.out.println("Post-increment: " + (a++)); // prints 10, then a becomes 11
+//         System.out.println("After Post-increment a: " + a); // prints 11
+//         System.out.println("Pre-increment: " + (++a)); // a becomes 12, then prints 12
+//         System.out.println("After Pre-increment a: " + a); // prints 12
+//         System.out.println("Post-decrement: " + (a--)); // prints 12, then a becomes 11
+//         System.out.println("After Post-decrement a: " + a); // prints 11
+//         System.out.println("Pre-decrement: " + (--a)); // a becomes 10, then prints 10
+//         System.out.println("After Pre-decrement a: " + a); // prints 10
+//     }
+// }
+// public class Main{
+//     public static void main(String[] args){
+//         int a = 10;
+//         int b = 5;
+//         // Ternary Operator
+//         int max = (a > b) ? a : b;
+//         System.out.println("Maximum value: " + max);
+//     }
+// }
+// public class Main{
+//     public static void main(String[] args){
+//         boolean a = true;
+//         // Bitwise Operators
+//         System.out.println("Bitwise AND: " + (a & false));
+//         System.out.println("Bitwise OR: " + (a | false));
+//         System.out.println("Bitwise XOR: " + (a ^ false));
+//         System.out.println("Bitwise NOT: " + (~1)); // Note: ~ operator works on integers
+//     }
+// }
+// public class Main{
+//     public static void main(String[] args){
+//         int a = 10;
+//         // Shift Operators
+//         System.out.println("Left Shift: " + (a << 2)); // 10 * 2^2 = 40
+//         System.out.println("Right Shift: " + (a >> 2)); // 10 / 2^2 = 2
+//         System.out.println("Unsigned Right Shift: " + (a >>> 2)); //
+//     }
+// }
+    // public class Main{
+    //     public static void main(String[] args){
+    //         int a = 10;
+    //         int b = 3;
+    //         // Miscellaneous Operators
+    //         System.out.println("Instanceof Operator: " + (a instanceof Integer)); // Note: 'instanceof' works with reference types
+    //     }
+    // }
+
