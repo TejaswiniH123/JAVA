@@ -181,34 +181,35 @@
 //         System.out.println("Less than or equal to: " + (a <= b));
 //     }
 // }
+// public class Main{
+//     public static void main(String[] args){
+//         boolean x = true;
+//         boolean y = false;
+//         // Logical Operators
+//         System.out.println("Logical AND: " + (x && y));
+//         System.out.println("Logical OR: " + (x || y));
+//         System.out.println("Logical NOT: " + (!x));
+//     }
+// }
+
 public class Main{
     public static void main(String[] args){
-        boolean x = true;
-        boolean y = false;
-        // Logical Operators
-        System.out.println("Logical AND: " + (x && y));
-        System.out.println("Logical OR: " + (x || y));
-        System.out.println("Logical NOT: " + (!x));
+        int a = 10;
+        int b = 5;
+        // Assignment Operators
+        a += b; // a = a + b
+        System.out.println("a after += : " + a);
+        a -= b; // a = a - b
+        System.out.println("a after -= : " + a);
+        a *= b; // a = a * b
+        System.out.println("a after *= : " + a);
+        a /= b; // a = a / b
+        System.out.println("a after /= : " + a);
+        a %= b; // a = a % b
+        System.out.println("a after %= : " + a);
     }
 }
 
-// public class Main{
-//     public static void main(String[] args){
-//         int a = 10;
-//         int b = 5;
-//         // Assignment Operators
-//         a += b; // a = a + b
-//         System.out.println("a after += : " + a);
-//         a -= b; // a = a - b
-//         System.out.println("a after -= : " + a);
-//         a *= b; // a = a * b
-//         System.out.println("a after *= : " + a);
-//         a /= b; // a = a / b
-//         System.out.println("a after /= : " + a);
-//         a %= b; // a = a % b
-//         System.out.println("a after %= : " + a);
-//     }
-// }
 // public class Main{
 //     public static void main(String[] args){
 //         int a = 10;
