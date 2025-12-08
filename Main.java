@@ -132,9 +132,24 @@
 //     }
 // }
 //object Data type
+// public class Main{
+//     public static void main(String[] args){
+//         Main myObject = new Main();
+//         System.out.println("Object created of Main class: " + myObject);
+//     }
+// }
+
+//Variables in Java
 public class Main{
     public static void main(String[] args){
-        Main myObject = new Main();
-        System.out.println("Object created of Main class: " + myObject);
+        // Variable declaration and initialization
+        int myNumber = 10;
+        String myString = "Hello, Java!";
+        boolean isJavaFun = true;
+
+        // Printing variable values
+        System.out.println("Integer value: " + myNumber);
+        System.out.println("String value: " + myString);
+        System.out.println("Is Java fun? " + isJavaFun);
     }
 }
