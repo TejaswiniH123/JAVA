@@ -210,30 +210,30 @@
 //     }
 // }
 
-public class Main{
-    public static void main(String[] args){
-        int a = 10;
-        // Increment and Decrement Operators
-        System.out.println("Original a: " + a);
-        System.out.println("Post-increment: " + (a++)); // prints 10, then a becomes 11
-        System.out.println("After Post-increment a: " + a); // prints 11
-        System.out.println("Pre-increment: " + (++a)); // a becomes 12, then prints 12
-        System.out.println("After Pre-increment a: " + a); // prints 12
-        System.out.println("Post-decrement: " + (a--)); // prints 12, then a becomes 11
-        System.out.println("After Post-decrement a: " + a); // prints 11
-        System.out.println("Pre-decrement: " + (--a)); // a becomes 10, then prints 10
-        System.out.println("After Pre-decrement a: " + a); // prints 10
-    }
-}
 // public class Main{
 //     public static void main(String[] args){
 //         int a = 10;
-//         int b = 5;
-//         // Ternary Operator
-//         int max = (a > b) ? a : b;
-//         System.out.println("Maximum value: " + max);
+//         // Increment and Decrement Operators
+//         System.out.println("Original a: " + a);
+//         System.out.println("Post-increment: " + (a++)); // prints 10, then a becomes 11
+//         System.out.println("After Post-increment a: " + a); // prints 11
+//         System.out.println("Pre-increment: " + (++a)); // a becomes 12, then prints 12
+//         System.out.println("After Pre-increment a: " + a); // prints 12
+//         System.out.println("Post-decrement: " + (a--)); // prints 12, then a becomes 11
+//         System.out.println("After Post-decrement a: " + a); // prints 11
+//         System.out.println("Pre-decrement: " + (--a)); // a becomes 10, then prints 10
+//         System.out.println("After Pre-decrement a: " + a); // prints 10
 //     }
 // }
+public class Main{
+    public static void main(String[] args){
+        int a = 10;
+        int b = 5;
+        // Ternary Operator
+        int max = (a > b) ? a : b;
+        System.out.println("Maximum value: " + max);
+    }
+}
 // public class Main{
 //     public static void main(String[] args){
 //         boolean a = true;
