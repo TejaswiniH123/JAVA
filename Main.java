@@ -244,23 +244,23 @@
 //         System.out.println("Bitwise NOT: " + (~1)); // Note: ~ operator works on integers
 //     }
 // }
-public class Main{
-    public static void main(String[] args){
-        int a = 10;
-        // Shift Operators
-        System.out.println("Left Shift: " + (a << 2)); // 10 * 2^2 = 40
-        System.out.println("Right Shift: " + (a >> 2)); // 10 / 2^2 = 2
-        System.out.println("Unsigned Right Shift: " + (a >>> 2)); //
+// public class Main{
+//     public static void main(String[] args){
+//         int a = 10;
+//         // Shift Operators
+//         System.out.println("Left Shift: " + (a << 2)); // 10 * 2^2 = 40
+//         System.out.println("Right Shift: " + (a >> 2)); // 10 / 2^2 = 2
+//         System.out.println("Unsigned Right Shift: " + (a >>> 2)); //
+//     }
+// }
+    public class Main{
+        public static void main(String[] args){
+            int a = 10;
+            int b = 3;
+            // Miscellaneous Operators
+            System.out.println("Instanceof Operator: " + (a instanceof Integer)); // Note: 'instanceof' works with reference types
+        }
     }
-}
-    // public class Main{
-    //     public static void main(String[] args){
-    //         int a = 10;
-    //         int b = 3;
-    //         // Miscellaneous Operators
-    //         System.out.println("Instanceof Operator: " + (a instanceof Integer)); // Note: 'instanceof' works with reference types
-    //     }
-    // }
 
 //conditional statements in Java
 
