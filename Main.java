@@ -234,25 +234,25 @@
 //         System.out.println("Maximum value: " + max);
 //     }
 // }
-public class Main{
-    public static void main(String[] args){
-        boolean a = true;
-        // Bitwise Operators
-        System.out.println("Bitwise AND: " + (a & false));
-        System.out.println("Bitwise OR: " + (a | false));
-        System.out.println("Bitwise XOR: " + (a ^ false));
-        System.out.println("Bitwise NOT: " + (~1)); // Note: ~ operator works on integers
-    }
-}
 // public class Main{
 //     public static void main(String[] args){
-//         int a = 10;
-//         // Shift Operators
-//         System.out.println("Left Shift: " + (a << 2)); // 10 * 2^2 = 40
-//         System.out.println("Right Shift: " + (a >> 2)); // 10 / 2^2 = 2
-//         System.out.println("Unsigned Right Shift: " + (a >>> 2)); //
+//         boolean a = true;
+//         // Bitwise Operators
+//         System.out.println("Bitwise AND: " + (a & false));
+//         System.out.println("Bitwise OR: " + (a | false));
+//         System.out.println("Bitwise XOR: " + (a ^ false));
+//         System.out.println("Bitwise NOT: " + (~1)); // Note: ~ operator works on integers
 //     }
 // }
+public class Main{
+    public static void main(String[] args){
+        int a = 10;
+        // Shift Operators
+        System.out.println("Left Shift: " + (a << 2)); // 10 * 2^2 = 40
+        System.out.println("Right Shift: " + (a >> 2)); // 10 / 2^2 = 2
+        System.out.println("Unsigned Right Shift: " + (a >>> 2)); //
+    }
+}
     // public class Main{
     //     public static void main(String[] args){
     //         int a = 10;
