@@ -225,25 +225,25 @@
 //         System.out.println("After Pre-decrement a: " + a); // prints 10
 //     }
 // }
-public class Main{
-    public static void main(String[] args){
-        int a = 10;
-        int b = 5;
-        // Ternary Operator
-        int max = (a > b) ? a : b;
-        System.out.println("Maximum value: " + max);
-    }
-}
 // public class Main{
 //     public static void main(String[] args){
-//         boolean a = true;
-//         // Bitwise Operators
-//         System.out.println("Bitwise AND: " + (a & false));
-//         System.out.println("Bitwise OR: " + (a | false));
-//         System.out.println("Bitwise XOR: " + (a ^ false));
-//         System.out.println("Bitwise NOT: " + (~1)); // Note: ~ operator works on integers
+//         int a = 10;
+//         int b = 5;
+//         // Ternary Operator
+//         int max = (a > b) ? a : b;
+//         System.out.println("Maximum value: " + max);
 //     }
 // }
+public class Main{
+    public static void main(String[] args){
+        boolean a = true;
+        // Bitwise Operators
+        System.out.println("Bitwise AND: " + (a & false));
+        System.out.println("Bitwise OR: " + (a | false));
+        System.out.println("Bitwise XOR: " + (a ^ false));
+        System.out.println("Bitwise NOT: " + (~1)); // Note: ~ operator works on integers
+    }
+}
 // public class Main{
 //     public static void main(String[] args){
 //         int a = 10;
