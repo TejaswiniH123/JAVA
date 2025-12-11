@@ -253,16 +253,30 @@
 //         System.out.println("Unsigned Right Shift: " + (a >>> 2)); //
 //     }
 // }
-    public class Main{
-        public static void main(String[] args){
-            int a = 10;
-            int b = 3;
-            // Miscellaneous Operators
-            System.out.println("Instanceof Operator: " + (a instanceof Integer)); // Note: 'instanceof' works with reference types
+    // public class Main{
+    //     public static void main(String[] args){
+    //         int a = 10;
+    //         int b = 3;
+    //         // Miscellaneous Operators
+    //         System.out.println("Instanceof Operator: " + (a instanceof Integer)); // Note: 'instanceof' works with reference types
+    //     }
+    // }
+
+//conditional statements 
+public class Main{
+    public static void main(String[] args){
+        int number = 10;
+        // If-Else Statement
+        if(number > 0){
+            System.out.println("The number is positive.");
+        } else if(number < 0){
+            System.out.println("The number is negative.");
+        } else{
+            System.out.println("The number is zero.");
         }
     }
+}
 
-//conditional statements in Java
 
 
 
