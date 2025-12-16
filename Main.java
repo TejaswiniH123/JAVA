@@ -270,37 +270,62 @@
 //         }
 //     }
 // }
-public class Main{
-    public static void main(String[] args){
-        int day = 3;
-        // Switch Statement
-        switch(day){
-            case 1:
-                System.out.println("Monday");
-                break;
-            case 2:
-                System.out.println("Tuesday");
-                break;
-            case 3:
-                System.out.println("Wednesday");
-                break;
-            case 4:
-                System.out.println("Thursday");
-                break;
-            case 5:
-                System.out.println("Friday");
-                break;
-            case 6:
-                System.out.println("Saturday");
-                break;
-            case 7:
-                System.out.println("Sunday");
-                break;
-            default:
-                System.out.println("Invalid day");
-        }
-    }
-}
+// public class Main{
+//     public static void main(String[] args){
+//         int day = 3;
+//         // Switch Statement
+//         switch(day){
+//             case 1:
+//                 System.out.println("Monday");
+//                 break;
+//             case 2:
+//                 System.out.println("Tuesday");
+//                 break;
+//             case 3:
+//                 System.out.println("Wednesday");
+//                 break;
+//             case 4:
+//                 System.out.println("Thursday");
+//                 break;
+//             case 5:
+//                 System.out.println("Friday");
+//                 break;
+//             case 6:
+//                 System.out.println("Saturday");
+//                 break;
+//             case 7:
+//                 System.out.println("Sunday");
+//                 break;
+//             default:
+//                 System.out.println("Invalid day");
+//         }
+//     }
+// }
 
 
 //looping statements in Java
+public class Main{
+    public static void main(String[] args){
+        // For Loop
+        System.out.println("For Loop:");
+        for(int i = 1; i <= 5; i++){
+            System.out.println(i);
+        }
+
+        // // While Loop
+        // System.out.println("While Loop:");
+        // int j = 1;
+        // while(j <= 5){
+        //     System.out.println(j);
+        //     j++;
+        // }
+
+        // Do-While Loop
+        // System.out.println("Do-While Loop:");
+        // int k = 1;
+        // do{
+        //     System.out.println(k);
+        //     k++;
+        // } while(k <= 5);
+    }
+}
