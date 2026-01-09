@@ -48,12 +48,27 @@
 // }
 
 // Combining Two Strings with concat() Method
+// public class Main {
+//     public static void main(String args[])
+//     {
+//         String str1 = "Hello, ";
+//         String str2 = "World!";
+//         String str3 = str1.concat(str2);
+//         System.out.println("Combined String: " + str3);
+//     }
+// }
+
+//reverse a string using concat() method
 public class Main {
     public static void main(String args[])
     {
-        String str1 = "Hello, ";
-        String str2 = "World!";
-        String str3 = str1.concat(str2);
-        System.out.println("Combined String: " + str3);
+        String str = "Hello";
+        String reversedStr = "";
+        
+        for (int i = str.length() - 1; i >= 0; i--) {
+            reversedStr = reversedStr.concat(String.valueOf(str.charAt(i)));
+        }
+        
+        System.out.println("Reversed String: " + reversedStr);
     }
 }
