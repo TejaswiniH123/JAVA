@@ -59,16 +59,30 @@
 // }
 
 //reverse a string using concat() method
-public class Main {
-    public static void main(String args[])
+// public class Main {
+//     public static void main(String args[])
+//     {
+//         String str = "Hello";
+//         String reversedStr = "";
+        
+//         for (int i = str.length() - 1; i >= 0; i--) {
+//             reversedStr = reversedStr.concat(String.valueOf(str.charAt(i)));
+//         }
+        
+//         System.out.println("Reversed String: " + reversedStr);
+//     }
+// }
+
+import java.io.*;
+class Main {
+    public static void main(String[] args)
     {
-        String str = "Hello";
-        String reversedStr = "";
-        
-        for (int i = str.length() - 1; i >= 0; i--) {
-            reversedStr = reversedStr.concat(String.valueOf(str.charAt(i)));
+        String str = "GeeksforGeeks";
+        int count = 0;
+        for (int i = 0; i < str.length(); i++) {
+            if (str.charAt(i) == 'e')
+                count++;
         }
-        
-        System.out.println("Reversed String: " + reversedStr);
+        System.out.println("Count the occurrence of e : "+ count);
     }
 }
