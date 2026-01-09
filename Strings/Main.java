@@ -73,16 +73,27 @@
 //     }
 // }
 
-import java.io.*;
-class Main {
-    public static void main(String[] args)
-    {
-        String str = "GeeksforGeeks";
-        int count = 0;
-        for (int i = 0; i < str.length(); i++) {
-            if (str.charAt(i) == 'e')
-                count++;
-        }
-        System.out.println("Count the occurrence of e : "+ count);
+// import java.io.*;
+// class Main {
+//     public static void main(String[] args)
+//     {
+//         String str = "GeeksforGeeks";
+//         int count = 0;
+//         for (int i = 0; i < str.length(); i++) {
+//             if (str.charAt(i) == 'e')
+//                 count++;
+//         }
+//         System.out.println("Count the occurrence of e : "+ count);
+//     }
+// }
+
+
+public class Main {
+    public static void main(String args[]) {
+        String s = new String("Welcome to geeksforgeeks");
+        String s1 = new String("geeks");
+        System.out.print(
+            "Found geeks(after 14th index) starting at position: ");
+        System.out.print(s.indexOf(s1, 14));
     }
 }
