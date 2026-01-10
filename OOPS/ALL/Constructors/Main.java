@@ -12,26 +12,70 @@ import java.io.*;
 // }
 
 //parameterized constructor example
+// class Geeks{
+//     // data members of the class
+//     String name;
+//     int id;
+//     // Parameterized Constructor
+//     Geeks(String name, int id)
+//     {
+//         this.name = name;
+//         this.id = id;
+//     }
+//     // Method to display object data
+//     void display(){   
+//         System.out.println("GeekName: " + name
+//                            + " and GeekId: " + id);
+//     }
+//     // main() method — placed inside the same class for
+//     // universal compatibility
+//     public static void main(String[] args){   
+//         // This will invoke the parameterized constructor
+//         Geeks geek1 = new Geeks("Sweta", 68);
+//         geek1.display();
+//     }
+// }
+
+//COPY CONSTRUCTOR example
+import java.io.*;
+
 class Geeks{
+    
     // data members of the class
     String name;
     int id;
+
     // Parameterized Constructor
     Geeks(String name, int id)
     {
         this.name = name;
         this.id = id;
     }
-    // Method to display object data
-    void display(){   
-        System.out.println("GeekName: " + name
-                           + " and GeekId: " + id);
+
+    // Copy Constructor
+    Geeks(Geeks obj2)
+    {
+        this.name = obj2.name;
+        this.id = obj2.id;
     }
-    // main() method — placed inside the same class for
-    // universal compatibility
-    public static void main(String[] args){   
-        // This will invoke the parameterized constructor
+}
+
+class GFG {
+    public static void main(String[] args)
+    {
+        // This would invoke the parameterized constructor
+        System.out.println("First Object");
         Geeks geek1 = new Geeks("Sweta", 68);
-        geek1.display();
+        System.out.println("GeekName: " + geek1.name
+                           + " and GeekId: " + geek1.id);
+
+        System.out.println();
+
+        // This would invoke the copy constructor
+        Geeks geek2 = new Geeks(geek1);
+        System.out.println(
+            "Copy Constructor used Second Object");
+        System.out.println("GeekName: " + geek2.name
+                           + " and GeekId: " + geek2.id);
     }
 }
