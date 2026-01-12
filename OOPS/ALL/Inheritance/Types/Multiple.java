@@ -1,20 +1,23 @@
-class Vehicle {
-    Vehicle() {
-        System.out.println("This is a Vehicle");
+interface LandVehicle {
+    default void landInfo() {
+        System.out.println("This is a LandVehicle");
     }
 }
-class FourWheeler extends Vehicle {
-    FourWheeler() {
-        System.out.println("4 Wheeler Vehicles");
+interface WaterVehicle {
+    default void waterInfo() {
+        System.out.println("This is a WaterVehicle");
     }
 }
-class Car extends FourWheeler {
-    Car() {
-        System.out.println("This 4 Wheeler Vehicle is a Car");
+// Subclass implementing both interfaces
+class AmphibiousVehicle implements LandVehicle, WaterVehicle {
+    AmphibiousVehicle() {
+        System.out.println("This is an AmphibiousVehicle");
     }
 }
-public class Geeks {
+public class Test {
     public static void main(String[] args) {
-        Car obj = new Car(); // Triggers all constructors in order
+        AmphibiousVehicle obj = new AmphibiousVehicle();
+        obj.waterInfo();
+        obj.landInfo();
     }
 }
