@@ -7,7 +7,7 @@ public class Geeks {
     }
 }
 
-...
+
 
 @FunctionalInterface
 interface Square {
